@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+}
+
+h1,
+p {
+    color: white;
+    display: inline;
+    font-size: 20px;
+}
+
+.staticObjects,
+.dinamicObjects {
+    position: absolute;
+    border-radius: 50%;
+}
