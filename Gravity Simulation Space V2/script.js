@@ -273,6 +273,7 @@ function drawLine(x1, y1) {
     newLine.setAttribute('y2', y1 - svg.getBoundingClientRect().top);
     newLine.setAttribute("stroke", "green");
     newLine.setAttribute("stroke-width", "2");
+    newLine.style.position = 'absolute';
     svg.append(newLine);
 }
 

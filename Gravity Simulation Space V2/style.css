@@ -1,9 +1,9 @@
 body {
-    background-color: black;
+    background-color: rgb(48, 48, 48);
     margin: 0px;
 }
 
-div {
+#controlpanel {
     width: 200px;
     height: 100px;
 }
